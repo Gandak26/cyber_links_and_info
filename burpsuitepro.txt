@@ -1,0 +1,11 @@
+Go to here : https://github.com/SNGWN/Burp-Suite-Pro?tab=readme-ov-file
+Copy the link it mentioned there : https://sites.google.com/view/pentesting-club/home
+
+Here just download the file it mention. Places anywhere in the kali.
+
+For newer Version:
+1. If old burp is installed there just paste the newer version of burp pro jar file there and remove the old one(before that).
+2. And rerun the sh file. 
+
+if old version is not there:
+1. install the old version and then do the above steps.
