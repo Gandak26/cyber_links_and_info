@@ -1,0 +1,74 @@
+Commands:
+	• https://www.marquette.edu/mathematical-and-statistical-sciences/basic-vi-editor-commands.php
+	• https://www.javatpoint.com/vi-editor#:~:text=the%20changes%20made.-,Vi%20Commands,-Linux%20vi%20editor
+
+	• tild sysmbol represents unused lines
+	• There are two mods:
+		○ Command Mod : to insert command : Press esc (To run commands)
+		○ Insert Mod : user to edit data Press i ,
+
+Undo :  u
+Redo :  Ctrl + r
+
+User Press a to insert 
+
+CUT and Paste
+	• d + d : Use to Cut
+	• p : To paste after the cursor line
+	• P : Above cursor line
+
+COPY
+	• Shift + v : to select whole line
+	• v : It will go to visual mode, now use arrow to determine how much you need to select
+	• y : To copy (It is called yanked)
+
+
+Navigation:
+	• Arrow key to navigate
+	• shift + G : Go to last line 
+	• shift + g : go to first line
+	• :<line_num> : To jump to specific line
+	
+
+In the insert mod:
+	• Press a : To insert at the end of line (More usefull than i)
+	• shift + i : To insert at the start of line
+	• Press o : To insert from next line
+		○ shift + o : to insert on above line
+
+
+Deletion data
+	• d + d : To delete a whole line
+		○ Enter number of lines n than press d + d, it will delete n number of line after the cursor.
+	• D : delete all data right to the cursor position in the line (To perform D, press d with shift)
+	• Press x : Delete a single char where cursor is present
+		 
+
+Searching:
+	• /<pattern :  Search in the forward direction (From the cursor position)
+	• ?<pattern> : Search in the backword direction 
+		○ press small n : to find next matched pattern in forward dir
+		○ press capital N : find next matched pattern in backword dir
+		○ This work with both forward(/) and backword (?) search
+		○ For special character use backword slash \ : Eg. / \n : this will search new line
+	• Shortcut:
+		○ press * : If cursor is on some word, it will search in forward direction
+		○ press # : Same but search in backword direction.
+
+
+Replacement:
+	• %s/<word1>/<word2>/g : It will change the word1 to word2 in whole file
+	• press r : It is used to replace a char where cursor is pointing
+
+Saving & Exiting Commands  (Without !, will also work)
+	• :q! : Exit from vi without saving
+	• :w! : Save the file (Without Exit)
+	• :wq!  :  Save and exit
+	• :w <filename> : It works as save as (New file with specified file name is created)
+		○ :w! <filename> : to save into the file which is already exists, it overrides the file
+
+Misc:
+	• :set nu : to see line number
+	• :set nonu : to hide line number
+	• vi -o file1.txt file2.txt : to open multiple file
+      ctrl + w + w : to move b/w files
