@@ -2,8 +2,9 @@ Reference: https://www.youtube.com/watch?v=YIufkbmcyA0
 
 steps to configure:
 1. open /etc/proxychains4.conf in sudo
-2. go to the bottom in the [ProxyList]
-3. after socks4 line add "socks5 127.0.0.1 9050"
+2. Comment strict_chain and uncomment dynamic_chain
+3. go to the bottom in the [ProxyList]
+4. after socks4 line add "socks5 127.0.0.1 9050"
 
 start the tor:
 if not installed: sudo apt install tor
