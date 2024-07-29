@@ -1,4 +1,6 @@
 Go to here : https://github.com/SNGWN/Burp-Suite-Pro?tab=readme-ov-file
+#For newer version always first checkout releases in github page then download from assests of new release. If there is nonew version, you can try below method, but before that backed up pre jar file, because installation may corrupt.
+
 Copy the link it mentioned there : https://sites.google.com/view/pentesting-club/home
 
 Here just download the file it mention. Places anywhere in the kali.
